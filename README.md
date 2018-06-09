@@ -44,7 +44,9 @@ The user can modify the system environment variables with the following commands
 vim /etc/profile
 
 export JAVA_HOME="/usr/local/jdk1.8.0_20/bin"
+
 export DSK_HOME="/home/.../dsk-2.1.0-Linux/bin"
+
 export PATH="$JAVA_HOME:$DSK_HOME:$PATH"
 
 source /etc/profile
