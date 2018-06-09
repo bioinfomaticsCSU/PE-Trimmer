@@ -62,9 +62,10 @@ Thus, installation is not required.
 	
 	For example:
 	
-	### One library (The library is composed of paired-end reads).
+	One library (The library is composed of paired-end reads).
 	
 	/home/.../PE-Trimmer/lib/frag_1.fastq (The left mate reads of the library)
+	
 	/home/.../PE-Trimmer/lib/frag_2.fastq (The right mate reads of the library)
 	
 2) Edit the configuration:
