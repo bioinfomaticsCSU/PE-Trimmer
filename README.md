@@ -70,9 +70,9 @@ Thus, installation is not required.
 	
 	/home/.../PE-Trimmer/lib/frag_2.fastq (The right mate reads of the library)
 	
-2) Edit the configuration:
+2) Edit the configuration
     
-	Before running PE-Trimmer, we also need configure the config.txt(/home/.../PE-Trimmer/config.txt).
+	Before running PE-Trimmer, we also need to configure the file of config.txt(/home/.../PE-Trimmer/config.txt).
     
 	For example:
     
