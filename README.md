@@ -96,12 +96,15 @@ Thus, installation is not required.
 3) Run the following command to start the PE-Trimmer.
      
 	cd /home/.../PE-Trimmer
+	
 	./run.sh
     
 	If the system prompts "operation not permitted" , we need to run the following commands to modify the permissions of PE-Trimmer folder at this time.
     
 	cd ..
+	
 	chmod -R 777  PE-Trimmer
+	
 	cd PE-Trimmer
 
 ### Output.
@@ -117,6 +120,7 @@ Thus, installation is not required.
 ### Evaluate the trimming effect of PE-Trimmer.
    	
 	cd /home/.../PE-Trimmer/Test
+	
 	./Test.sh
     
-	The user needs to read the instructions in the "Test" foler.
+	The users need to read the instruction in the "Test" foler.
