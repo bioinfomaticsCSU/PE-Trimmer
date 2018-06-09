@@ -31,7 +31,7 @@ CHINA, 410083
 Installation and operation of PE-Trimmer 
 ==================================
 
-1)Dependencies
+1) Dependencies
 
 When running PE-Trimmer from GitHub source the following tools are
 required:
@@ -49,12 +49,12 @@ export PATH="$JAVA_HOME:$DSK_HOME:$PATH"
 
 source /etc/profile
  
-3)Install PE-Trimmer
+3) Install PE-Trimmer
 
 PE-Trimmer automatically compiles all its sub-parts when needed (on the first use). 
 Thus, installation is not required.
 
-4)Run PE-Trimmer.
+4) Run PE-Trimmer.
 
 ### Loading lib to PE-Trimmer
     
@@ -87,7 +87,7 @@ Thus, installation is not required.
 	* 'WindowSize':  Window size setting during trimming. 
 	* 'UserThreshold': Trimming threshold. The default value of it is 0.3. It can also be manually set by the user.
     
-### Run the following command to start the ARC.
+### Run the following command to start the PE-Trimmer.
      
 	cd /home/.../PE-Trimmer
 	./run.sh
@@ -98,7 +98,7 @@ Thus, installation is not required.
 	chmod -R 777  PE-Trimmer
 	cd PE-Trimmer
 
-5)Output.
+5) Output.
     
     /home/.../PE-Trimmer/TrimInformations/Trimed.paired_right.fq
     /home/.../PE-Trimmer/TrimInformations/Trimed.paired_left.fq
@@ -106,7 +106,7 @@ Thus, installation is not required.
     /home/.../PE-Trimmer/TrimInformations/Unpaired_left.fq
     /home/.../PE-Trimmer/TrimInformations/Unpaired_right.fq
 
-6)Evaluate the trimming effect of PE-Trimmer.
+6) Evaluate the trimming effect of PE-Trimmer.
    	
 	cd /home/.../PE-Trimmer/Test
 	./Test.sh
