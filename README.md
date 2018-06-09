@@ -75,11 +75,16 @@ Thus, installation is not required.
 	For example:
     
     home=/homed/liaoxingyu/PE-Trimmer
-    lib_left_name=reads_1
-    lib_right_name=reads_2
-    Readlength=100
-    WindowSize=11
-    UserThreshold=0.3
+    
+	lib_left_name=reads_1
+    
+	lib_right_name=reads_2
+    
+	Readlength=100
+    
+	WindowSize=11
+    
+	UserThreshold=0.3
 	
 	* 'home': The working directory of PE-Trimmer.
 	* 'lib_left_name': The name of the left fastq file.
