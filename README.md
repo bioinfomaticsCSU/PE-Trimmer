@@ -98,7 +98,7 @@ Thus, installation is not required.
 	cd /home/.../PE-Trimmer
 	./run.sh
     
-	If the system prompts "operation not permitted" ,we need to run the following commands to modify the permissions of ARC-master folder at this time.
+	If the system prompts "operation not permitted" , we need to run the following commands to modify the permissions of PE-Trimmer folder at this time.
     
 	cd ..
 	chmod -R 777  PE-Trimmer
