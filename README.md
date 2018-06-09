@@ -31,14 +31,14 @@ CHINA, 410083
 Installation and operation of PE-Trimmer 
 ==================================
 
-1) Dependencies
+### Dependencies
 
 When running PE-Trimmer from GitHub source the following tools are
 required:
 * [jdk.1.8.0](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * [dsk.2.1.0](http://minia.genouest.org/dsk/)
 
-2) Add system environment variables
+### Add system environment variables
 The user can modify the system environment variables with the following commands:
 
 vim /etc/profile
@@ -49,14 +49,14 @@ export PATH="$JAVA_HOME:$DSK_HOME:$PATH"
 
 source /etc/profile
  
-3) Install PE-Trimmer
+### Install PE-Trimmer
 
 PE-Trimmer automatically compiles all its sub-parts when needed (on the first use). 
 Thus, installation is not required.
 
-4) Run PE-Trimmer.
+### Run PE-Trimmer.
 
-### Loading lib to PE-Trimmer
+1) Loading lib to PE-Trimmer
     
 	Before running PE-Trimmer, we need to load the library files into lib folder(/home/.../PE-Trimmer/lib/).
 	
@@ -67,7 +67,7 @@ Thus, installation is not required.
 	/home/.../PE-Trimmer/lib/frag_1.fastq (The left mate reads of the library)
 	/home/.../PE-Trimmer/lib/frag_2.fastq (The right mate reads of the library)
 	
-### Edit the configuration:
+2) Edit the configuration:
     
 	Before running PE-Trimmer, we also need configure the config.txt(/home/.../PE-Trimmer/config.txt).
     
@@ -87,7 +87,7 @@ Thus, installation is not required.
 	* 'WindowSize':  Window size setting during trimming. 
 	* 'UserThreshold': Trimming threshold. The default value of it is 0.3. It can also be manually set by the user.
     
-### Run the following command to start the PE-Trimmer.
+3) Run the following command to start the PE-Trimmer.
      
 	cd /home/.../PE-Trimmer
 	./run.sh
@@ -98,15 +98,17 @@ Thus, installation is not required.
 	chmod -R 777  PE-Trimmer
 	cd PE-Trimmer
 
-5) Output.
+### Output.
     
     /home/.../PE-Trimmer/TrimInformations/Trimed.paired_right.fq
-    /home/.../PE-Trimmer/TrimInformations/Trimed.paired_left.fq
+	
+	/home/.../PE-Trimmer/TrimInformations/Trimed.paired_left.fq
 
     /home/.../PE-Trimmer/TrimInformations/Unpaired_left.fq
-    /home/.../PE-Trimmer/TrimInformations/Unpaired_right.fq
+	
+	/home/.../PE-Trimmer/TrimInformations/Unpaired_right.fq
 
-6) Evaluate the trimming effect of PE-Trimmer.
+### Evaluate the trimming effect of PE-Trimmer.
    	
 	cd /home/.../PE-Trimmer/Test
 	./Test.sh
