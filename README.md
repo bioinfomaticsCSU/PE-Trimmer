@@ -58,7 +58,7 @@ Thus, installation is not required.
 
 ### Run PE-Trimmer.
 
-1) Loading lib to PE-Trimmer
+1) Load library files into PE-Trimmer
     
 	Before running PE-Trimmer, we need to load the library files into lib folder(/home/.../PE-Trimmer/lib/).
 	
@@ -95,7 +95,7 @@ Thus, installation is not required.
 	* 'WindowSize':  Window size setting during trimming. 
 	* 'UserThreshold': Trimming threshold. The default value of it is 0.3. It can also be manually set by the user.
     
-3) Run the following command to start the PE-Trimmer.
+3) Run the following command to start PE-Trimmer.
      
 	cd /home/.../PE-Trimmer
 	
