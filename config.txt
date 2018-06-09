@@ -1,0 +1,9 @@
+home=/homed/liaoxingyu/PE-Trimmer
+lib_left_name=reads_1
+lib_right_name=reads_2
+Readlength=100
+WindowSize=11
+UserThreshold=0.3
+Reference=genome-staph
+dsk_bin=/home/liaoxingyu/ClusterTool/dsk-2.1.0-Linux/bin
+Abyss_bin=/home/liaoxingyu/abyss/bin
